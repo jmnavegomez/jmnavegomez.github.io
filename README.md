@@ -6,4 +6,5 @@ Además de la simulación y el análisis numérico, me encantan el diseño 3D, l
 
 ¿Quieres saber más sobre mis proyectos o simplemente charlar sobre cómo podemos colaborar? ¡Estaré encantado de conectar contigo!
 
-Github: https://github.com/jmnavegomez
+[Github] (https://github.com/jmnavegomez)
+[Linkedin] (https://es.linkedin.com/in/jmnavegomez)
