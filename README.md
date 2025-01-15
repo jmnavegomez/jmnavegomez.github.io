@@ -5,3 +5,5 @@ Mi trayectoria incluye un doctorado en ingeniería mecánica, donde desarrollé 
 Además de la simulación y el análisis numérico, me encantan el diseño 3D, la impresión 3D y la creación de software. Creo en el poder de unir creatividad y técnica para dar vida a ideas que otros aún no imaginan. Si estás aquí, probablemente compartimos esa curiosidad por aprender, inventar y construir cosas nuevas.
 
 ¿Quieres saber más sobre mis proyectos o simplemente charlar sobre cómo podemos colaborar? ¡Estaré encantado de conectar contigo!
+
+Github: https://github.com/jmnavegomez
