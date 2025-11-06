@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    function mostrarProyecto(id) {
+      const iframes = document.querySelectorAll(".proyecto");
+      const botones = document.querySelectorAll(".tab-buttons button");
+      iframes.forEach(f => f.style.display = "none");
+      botones.forEach(b => b.classList.remove("active"));
+      document.getElementById(id).style.display = "block";
+      event.target.classList.add("active");
+    }
+
+    window.onload = function() {
+      mostrarProyecto('p1');
+    }
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="sobre-mi.html">Sobre mí</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <h1>Proyectos</h1>
+    <p>Selecciona un proyecto para visualizar su app interactiva:</p>
+
+    <div class="tab-container">
+      <div class="tab-buttons">
+        <button onclick="mostrarProyecto('p1')" class="active">📊 Proyecto 1</button>
+        <!-- <button onclick="mostrarProyecto('p2')">🧠 Proyecto 2</button>
+        <button onclick="mostrarProyecto('p3')">🌍 Proyecto 3</button> -->
+      </div>
+
+      <div id="p1" class="proyecto">
+        <iframe src="https://ejemplo-proyecto1.streamlit.app"></iframe>
+      </div>
+
+      <!-- <div id="p2" class="proyecto" style="display:none">
+        <iframe src="https://ejemplo-proyecto2.streamlit.app"></iframe>
+      </div>
+
+      <div id="p3" class="proyecto" style="display:none">
+        <iframe src="https://ejemplo-proyecto3.streamlit.app"></iframe>
+      </div> -->
+    </div>
+  </div>
+
+  <footer>
+    © 2025 jmnavegomez.
+  </footer>
+</body>
+</html>
